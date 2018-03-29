@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: 65b001569b251044fb204ec5a5f9e4dc
+timeCreated: 1519995327
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: imagePlane1
+    100002: pCube2
+    100004: pCube3
+    100006: pCube4
+    100008: pCube5
+    100010: pCube6
+    100012: //RootNode
+    100014: tool_sword01_v5__1_:pCube2
+    100016: tool_sword01_v5__1_:polySurface1
+    100018: tool_sword01_v5__1_:polySurface2
+    100020: tool_sword01_v5__1_:polySurface3
+    100022: tool_sword01_v5__1_:polySurface6
+    100024: tool_sword01_v5__1_:tool_staff01_v2_polySurface1
+    100026: tool_sword01_v5__1_:tool_staff01_v2_polySurface2
+    100028: tool_sword01_v5__1_:tool_staff01_v2_polySurface3
+    100030: tool_sword01_v5__1_:tool_staff01_v2_polySurface4
+    100032: tool_sword01_v5__1_:tool_staff01_v2_polySurface5
+    100034: tool_sword01_v5__1_:tool_staff01_v2_transform1
+    100036: tool_sword01_v5__1_:tool_staff01_v2_transform1 1
+    100038: tool_sword01_v5__1_:tool_staff01_v2_transform2
+    100040: tool_sword01_v5__1_:tool_staff01_v2_transform2 1
+    100042: tool_sword01_v5__1_:transform1
+    100044: tool_sword01_v5__1_:transform2
+    100046: tool_sword01_v5__1_:transform3
+    100048: tool_sword01_v5__1_:transform4
+    100050: tool_sword01_v5__1_:transform5
+    100052: tool_sword01_v5__1_:transform6
+    100054: transform1
+    100056: transform2
+    100058: transform3
+    100060: transform4
+    400000: imagePlane1
+    400002: pCube2
+    400004: pCube3
+    400006: pCube4
+    400008: pCube5
+    400010: pCube6
+    400012: //RootNode
+    400014: tool_sword01_v5__1_:pCube2
+    400016: tool_sword01_v5__1_:polySurface1
+    400018: tool_sword01_v5__1_:polySurface2
+    400020: tool_sword01_v5__1_:polySurface3
+    400022: tool_sword01_v5__1_:polySurface6
+    400024: tool_sword01_v5__1_:tool_staff01_v2_polySurface1
+    400026: tool_sword01_v5__1_:tool_staff01_v2_polySurface2
+    400028: tool_sword01_v5__1_:tool_staff01_v2_polySurface3
+    400030: tool_sword01_v5__1_:tool_staff01_v2_polySurface4
+    400032: tool_sword01_v5__1_:tool_staff01_v2_polySurface5
+    400034: tool_sword01_v5__1_:tool_staff01_v2_transform1
+    400036: tool_sword01_v5__1_:tool_staff01_v2_transform1 1
+    400038: tool_sword01_v5__1_:tool_staff01_v2_transform2
+    400040: tool_sword01_v5__1_:tool_staff01_v2_transform2 1
+    400042: tool_sword01_v5__1_:transform1
+    400044: tool_sword01_v5__1_:transform2
+    400046: tool_sword01_v5__1_:transform3
+    400048: tool_sword01_v5__1_:transform4
+    400050: tool_sword01_v5__1_:transform5
+    400052: tool_sword01_v5__1_:transform6
+    400054: transform1
+    400056: transform2
+    400058: transform3
+    400060: transform4
+    2300000: pCube6
+    3300000: pCube6
+    4300000: pCube6
+    6400000: pCube6
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - pCube6
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: pCube6
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
