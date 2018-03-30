@@ -6,7 +6,7 @@ Awaken in a world of secrets and agony, where you need to find a way to escape f
 Weekly blog:
 http://createwithevocate.blogspot.nl/
 
-Documentatie:
+Documentation:
 http://studenthome.hku.nl/~kevin.absen/img/hw/kevinabsen_bpw_documentatie_v1.pdf
 
 Game trailer:
