@@ -21,15 +21,14 @@ GameObject:
   - component: {fileID: 4475980426651566}
   - component: {fileID: 33020799153011392}
   - component: {fileID: 23144788673074890}
-  - component: {fileID: 95645107105021542}
   - component: {fileID: 65998616798553724}
-  - component: {fileID: 64266395541464916}
+  - component: {fileID: 65133524296857212}
   m_Layer: 0
   m_Name: envi_tableShort
   m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4475980426651566
 Transform:
@@ -83,8 +82,8 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1169872114565302}
   m_Mesh: {fileID: 4300000, guid: d84e63e4f8d948343b4df8a23ef99822, type: 3}
---- !u!64 &64266395541464916
-MeshCollider:
+--- !u!65 &65133524296857212
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -93,10 +92,8 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: d84e63e4f8d948343b4df8a23ef99822, type: 3}
+  m_Size: {x: 0.023558598, y: 0.019341312, z: 0.034497146}
+  m_Center: {x: 0.0000000013969839, y: 9.313226e-10, z: -0.0000000018626451}
 --- !u!65 &65998616798553724
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -109,20 +106,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.023558598, y: 0.019341312, z: 0.034497146}
   m_Center: {x: 0.0000000013969839, y: 9.313226e-10, z: -0.0000000018626451}
---- !u!95 &95645107105021542
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1169872114565302}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d84e63e4f8d948343b4df8a23ef99822, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1

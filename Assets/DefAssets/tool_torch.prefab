@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 23494063982774308}
   - component: {fileID: 65937633433539428}
   - component: {fileID: 54061025936931488}
-  - component: {fileID: 95137693393890448}
   - component: {fileID: 114000421893662332}
   - component: {fileID: 114467099640584698}
   - component: {fileID: 114735794067347590}
@@ -153,7 +152,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1174579689553064}
   m_LocalRotation: {x: -0.000000014901161, y: -1, z: -0.0000029134012, w: 0.00000004741929}
-  m_LocalPosition: {x: -1.2888792, y: 1.23, z: -21.01126}
+  m_LocalPosition: {x: 1.2568417, y: -0.66262233, z: 8.281788}
   m_LocalScale: {x: 30, y: 30, z: 30}
   m_Children:
   - {fileID: 4571738186456322}
@@ -161,7 +160,7 @@ Transform:
   - {fileID: 4862119837823104}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -180.00002, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -360, z: 0}
 --- !u!4 &4493264454134526
 Transform:
   m_ObjectHideFlags: 1
@@ -443,23 +442,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!95 &95137693393890448
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1174579689553064}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: b9fea813474e0ce449c73828e0ff5bdd, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!108 &108853855391400142
 Light:
   m_ObjectHideFlags: 1
@@ -664,14 +646,14 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -1288662597
+  randomSeed: 2070733411
   InitialModule:
     serializedVersion: 3
     enabled: 1
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.2
+      scalar: 0.3
       minScalar: 5
       maxCurve:
         serializedVersion: 2

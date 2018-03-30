@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4640697558994610}
   - component: {fileID: 33074392419293470}
   - component: {fileID: 23381078852683784}
-  - component: {fileID: 95764641995805596}
   - component: {fileID: 65921108483808298}
   - component: {fileID: 65003391060751530}
   m_Layer: 0
@@ -29,7 +28,7 @@ GameObject:
   m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4640697558994610
 Transform:
@@ -108,20 +107,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.022647265, z: 0.02}
   m_Center: {x: -4.656613e-10, y: -0.004367834, z: -0.000000015366822}
---- !u!95 &95764641995805596
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1929182148744314}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: df9a03cb8aa55414c85b627396a373c4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1

@@ -153,7 +153,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4421104900114244}
-  - component: {fileID: 95233426909420364}
   - component: {fileID: 114054616845065010}
   m_Layer: 0
   m_Name: envi_chains
@@ -323,7 +322,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1632529768758262}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: -0.42, y: 5.26, z: -19.95}
+  m_LocalPosition: {x: -2.89, y: 5.26, z: -35.66}
   m_LocalScale: {x: 30, y: 30, z: 30}
   m_Children:
   - {fileID: 4644857275011286}
@@ -1115,23 +1114,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.054338902, y: 0.0067648413, z: 0.03}
   m_Center: {x: -0.001102876, y: 0.002706822, z: 0.000032420274}
---- !u!95 &95233426909420364
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1632529768758262}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: da58b505e33aadc45a0f266b11e77fa3, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114054616845065010
 MonoBehaviour:
   m_ObjectHideFlags: 1

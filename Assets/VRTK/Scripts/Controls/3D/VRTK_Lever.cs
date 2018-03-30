@@ -37,6 +37,8 @@ namespace VRTK
         [Tooltip("The amount of friction the lever will have whilst swinging when it is grabbed.")]
         public float grabbedFriction = 60f;
 
+		public float angle = 0;
+
         protected HingeJoint leverHingeJoint;
         protected bool leverHingeJointCreated = false;
         protected Rigidbody leverRigidbody;
@@ -174,7 +176,7 @@ namespace VRTK
 
         protected virtual void SnapToValue(float value)
         {
-            float angle = ((value - minAngle) / (maxAngle - minAngle)) * (leverHingeJoint.limits.max - leverHingeJoint.limits.min);
+            angle = ((value - minAngle) / (maxAngle - minAngle)) * (leverHingeJoint.limits.max - leverHingeJoint.limits.min);
 
             // TODO: there is no direct setter, one recommendation by Unity staff is to "abuse" min/max which seems the most reliable but not working so far
             JointLimits oldLimits = leverHingeJoint.limits;

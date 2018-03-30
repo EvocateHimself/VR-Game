@@ -22,13 +22,13 @@ GameObject:
   - component: {fileID: 33072293817727512}
   - component: {fileID: 23236311617415914}
   - component: {fileID: 65048913720416516}
-  - component: {fileID: 64325532273352578}
+  - component: {fileID: 65398069867205318}
   m_Layer: 0
   m_Name: envi_tableLong
   m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4648866251548216
 Transform:
@@ -82,20 +82,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1274862695442482}
   m_Mesh: {fileID: 4300000, guid: 85d8dba6d8822b94080c2e7a4a309996, type: 3}
---- !u!64 &64325532273352578
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1274862695442482}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 85d8dba6d8822b94080c2e7a4a309996, type: 3}
 --- !u!65 &65048913720416516
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -108,3 +94,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.023558598, y: 0.019341312, z: 0.04556305}
   m_Center: {x: 0.0000000013969839, y: 9.313226e-10, z: 0.000000019557774}
+--- !u!65 &65398069867205318
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1274862695442482}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.023558602, y: 0.019341312, z: 0.045563053}
+  m_Center: {x: 0.0000000013969844, y: 9.313226e-10, z: 0.000000019557776}

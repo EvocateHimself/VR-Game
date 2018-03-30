@@ -31,6 +31,8 @@
 			if (transform.Find("Torch").gameObject.activeSelf) {
 				if (other.gameObject.CompareTag("Torches")) {
 					other.transform.Find("Torch").gameObject.SetActive(true);
+					burnSound.Play();
+					igniteSound.Play();
 				}
 			}
 		}

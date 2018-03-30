@@ -22,13 +22,13 @@ GameObject:
   - component: {fileID: 33314661397435382}
   - component: {fileID: 23817248607153868}
   - component: {fileID: 65780768816631710}
-  - component: {fileID: 64713442024050264}
+  - component: {fileID: 65075253663363068}
   m_Layer: 0
   m_Name: envi_woodAttic1
   m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4529951210849616
 Transform:
@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1011770258730142}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.77678, y: 2.3536725, z: -32.19}
+  m_LocalPosition: {x: 5.583, y: 2.644, z: -34.067}
   m_LocalScale: {x: 40, y: 40, z: 40}
   m_Children: []
   m_Father: {fileID: 0}
@@ -82,8 +82,8 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1011770258730142}
   m_Mesh: {fileID: 4300000, guid: 7e04c26d905141c449781dbcf060efc4, type: 3}
---- !u!64 &64713442024050264
-MeshCollider:
+--- !u!65 &65075253663363068
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -92,10 +92,8 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 7e04c26d905141c449781dbcf060efc4, type: 3}
+  m_Size: {x: 0.03677302, y: 0.0045597125, z: 0.028366737}
+  m_Center: {x: 0, y: -1.1641532e-10, z: 0.00014684303}
 --- !u!65 &65780768816631710
 BoxCollider:
   m_ObjectHideFlags: 1

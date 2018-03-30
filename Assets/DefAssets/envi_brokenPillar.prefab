@@ -21,14 +21,14 @@ GameObject:
   - component: {fileID: 4815480690689800}
   - component: {fileID: 33324446593081170}
   - component: {fileID: 23002348691287236}
-  - component: {fileID: 64437618357178704}
   - component: {fileID: 65294761770210730}
+  - component: {fileID: 65323908917090806}
   m_Layer: 0
   m_Name: envi_brokenPillar
   m_TagString: Rock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4815480690689800
 Transform:
@@ -36,13 +36,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1899581290947290}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.1838636, y: 0.91388464, z: -33.127342}
+  m_LocalRotation: {x: -0, y: 0.503618, z: -0, w: 0.86392653}
+  m_LocalPosition: {x: 1.99, y: 0.91388464, z: -40.82}
   m_LocalScale: {x: 50, y: 50, z: 50}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 60.479004, z: 0}
 --- !u!23 &23002348691287236
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -83,20 +83,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1899581290947290}
   m_Mesh: {fileID: 4300000, guid: cbe6b6e05ff880c469836e4e3a035cef, type: 3}
---- !u!64 &64437618357178704
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1899581290947290}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: cbe6b6e05ff880c469836e4e3a035cef, type: 3}
 --- !u!65 &65294761770210730
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -109,3 +95,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.036660872, y: 0.022632625, z: 0.051868323}
   m_Center: {x: -0.00042420533, y: 0.0020420304, z: 0.00094650313}
+--- !u!65 &65323908917090806
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1899581290947290}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.036660876, y: 0.022632625, z: 0.05186833}
+  m_Center: {x: -0.0004242054, y: 0.0020420304, z: 0.00094650325}
