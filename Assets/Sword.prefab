@@ -116,6 +116,8 @@ GameObject:
   - component: {fileID: 114625391076674052}
   - component: {fileID: 114525107336436242}
   - component: {fileID: 114887024012889624}
+  - component: {fileID: 82000269777662456}
+  - component: {fileID: 114970347674269100}
   m_Layer: 0
   m_Name: Sword
   m_TagString: Sword
@@ -159,7 +161,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1907284299202092}
   m_LocalRotation: {x: 0.7054887, y: 0.7054879, z: -0.0478152, w: -0.047815233}
-  m_LocalPosition: {x: 17.113, y: 1.545, z: -36.778}
+  m_LocalPosition: {x: 19.260036, y: -0.17962241, z: -7.64151}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4918612528795906}
@@ -411,6 +413,86 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.99999994, y: 1.9999998, z: 1.0000002}
   m_Center: {x: 0.000000059604634, y: -4.2351647e-22, z: -0.00000008940697}
+--- !u!82 &82000269777662456
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1907284299202092}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 159c0be77c992ab4fab33c5e0b4e9d3d, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!82 &82008430191449372
 AudioSource:
   m_ObjectHideFlags: 1
@@ -712,9 +794,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rockSound: {fileID: 82583437056412394}
   woodSound: {fileID: 82008430191449372}
+  bloodSound: {fileID: 82000269777662456}
   impactMetalPrefab: {fileID: 1588994977426390, guid: 1d3290cd77f7d504a99abb35c11c232c,
     type: 2}
   impactWoodPrefab: {fileID: 1167230064686572, guid: 49c9a0f30df5c4b47b6b9c3d0fdfca29,
+    type: 2}
+  impactBloodPrefab: {fileID: 1995150261517864, guid: f2f90067736329e45bc4af993fab5caf,
     type: 2}
   impactPos: {fileID: 1185173814401708}
 --- !u!114 &114565932473198802
@@ -786,3 +871,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18055ba762aa3994f9c10208cd088bc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114970347674269100
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1907284299202092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f42b13e9ab7969e40a95644d4c444c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadLevel: 1

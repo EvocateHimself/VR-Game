@@ -79,9 +79,10 @@ GameObject:
   - component: {fileID: 114855573594562828}
   - component: {fileID: 195589682234421352}
   - component: {fileID: 114761281259046358}
+  - component: {fileID: 65193983387465144}
   m_Layer: 0
   m_Name: Enemy 1
-  m_TagString: Untagged
+  m_TagString: Blood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,15 +110,15 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1262136644353620}
-  m_LocalRotation: {x: -0, y: 0.7071053, z: -0, w: 0.7071083}
-  m_LocalPosition: {x: -16.58, y: -0.45, z: -6.91}
+  m_LocalRotation: {x: -0, y: -0.0000006705522, z: -0, w: 1}
+  m_LocalPosition: {x: 3.13, y: -0.45, z: -47.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224407106258649794}
   - {fileID: 4683962817064840}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4683962817064840
 Transform:
   m_ObjectHideFlags: 1
@@ -224,7 +225,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!65 &65693758793246208
+--- !u!65 &65193983387465144
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -232,6 +233,18 @@ BoxCollider:
   m_GameObject: {fileID: 1262136644353620}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7398567, y: 1.2845116, z: 0.4514522}
+  m_Center: {x: -0.018422127, y: 0.14225578, z: 0.03195861}
+--- !u!65 &65693758793246208
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1262136644353620}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.7398567, y: 1.2845116, z: 0.4514522}
@@ -337,8 +350,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 114973535065678630}
-  maxHealth: 100
-  currentHealth: 50
+  maxHealth: 50
+  currentHealth: 0
 --- !u!114 &114973535065678630
 MonoBehaviour:
   m_ObjectHideFlags: 1

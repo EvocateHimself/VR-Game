@@ -20,6 +20,8 @@ TagManager:
   - Wood
   - Arrow
   - DestroyWood
+  - Blood
+  - switchScene
   layers:
   - Default
   - TransparentFX

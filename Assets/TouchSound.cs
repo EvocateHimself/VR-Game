@@ -8,8 +8,10 @@
 
 		public AudioSource rockSound;
 		public AudioSource woodSound;
+		public AudioSource bloodSound;
 		public GameObject impactMetalPrefab;
 		public GameObject impactWoodPrefab;
+		public GameObject impactBloodPrefab;
 		public GameObject impactPos;
 		private GameObject instantiatedObj;
 		private VRTK_InteractableObject interact;
@@ -37,6 +39,12 @@
 					woodSound.pitch = (Random.Range (0.9f, 1.2f));
 					woodSound.volume = 0.5F;
 					woodSound.Play ();
+					Destroy (instantiatedObj, 3.0F);
+				} else if ((other.gameObject.CompareTag ("Blood"))) {
+					instantiatedObj = (GameObject) Instantiate (impactBloodPrefab, impactPos.transform.position, impactPos.transform.rotation);
+					bloodSound.pitch = (Random.Range (0.9f, 1.2f));
+					bloodSound.volume = 0.5F;
+					bloodSound.Play ();
 					Destroy (instantiatedObj, 3.0F);
 				}
 			}

@@ -10,6 +10,7 @@
 		public GameObject bridge;
 		public Transform target;
 		public float speed;
+		public AudioSource bridgeStone;
 
 		// Use this for initialization
 		private void Start () {
@@ -19,7 +20,6 @@
 		// Update is called once per frame
 		void Update () {
 			if (lever.angle >= lever.maxAngle) {
-				Debug.Log ("Reached max angle!");
 				openBridge();
 			}
 		}
@@ -27,6 +27,8 @@
 		void openBridge() {
 			float step = speed * Time.deltaTime;
 			bridge.transform.position = Vector3.MoveTowards(bridge.transform.position, target.position, step);
+			bridgeStone.Play();
+			bridgeStone.volume = 1F;
 		}
 	}
 }
